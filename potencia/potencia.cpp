@@ -3,22 +3,20 @@
 using namespace std;
 
 int main(void){
-    int n, exp, res = 1;
-    cout << "Qual a base da potência? ";
-    cin >> n;
+    long long base, exp, res = 1;
 
-    cout << "Qual o expoente da potência? ";
+    cout << "Qual a base? ";
+    cin >> base;
+
+    cout << "Qual o expoente? ";
     cin >> exp;
 
     int i = 0;
 
-    while (i < exp){
-        res *= n;
-
-        i ++
-    }
-
-    cout << "O resultado é " << res;
-
+   for (int i = 0; i < exp; i++){
+    res *= base;
+   }
+    cout << "A resposta é " << res << "\n";
+ 
     return 0;
 }
