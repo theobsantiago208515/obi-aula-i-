@@ -1,29 +1,27 @@
 #include <iostream>
 #include <vector>
 
-
 using namespace std;
 
 int main(void){
-    int n;
 
-    cout "quantos inteiros?"
-    cin >> n;
+    vector<int> vec;
+    vec.reserve(5)
+    cout << "Escreva números naturais.\n";
+    
+    int value;
+    do{
+        cin >> value;
+        vec.push_back(value);
+    while(vec.back() > 0);
 
-    int v[n];
+    vec.pop_back();
 
-   for (int i = 0, i<n, i++){
-
-    cin >> v[i];
-   }
-
-   for (int i = n-1; i >= 0; i--){
-
-   cin >> v[i];
+    for(int i = 0; i < vec.size){
+        cout << vec[i] << " ";
     }
 
-
-    cout << "\n";
+    cout << vec.size << "\n";
 
     return 0;
 }
