@@ -14,16 +14,16 @@ int main(void){
 
    for (int i = 0, i<n, i++){
 
-    cin >> v[i]
+    cin >> v[i];
    }
 
    for (int i = n-1; i >= 0; i--){
 
-   cin >> v[i]
-}
+   cin >> v[i];
+    }
 
 
-    cout << "\n"
+    cout << "\n";
 
     return 0;
 }

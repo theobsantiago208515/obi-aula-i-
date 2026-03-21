@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 
+using namespace std;
 
 int main(void){
     int N, M, cal, total = 0, res = 0;
